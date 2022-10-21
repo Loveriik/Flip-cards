@@ -162,10 +162,8 @@ function flipCards(){
 
 function checkForMatch(card1,card2) {
     if (card1.querySelector('.help').name === card2.querySelector('.help').name) {
-        card1.querySelector('.help').src = ''
-        card2.querySelector('.help').src = ''
-        card1.querySelector('.help').classList.add('correct__answer')
-        card2.querySelector('.help').classList.add('correct__answer')
+        card1.querySelector('.help').src = 'Slots wallpaper/white.jpg'
+        card2.querySelector('.help').src = 'Slots wallpaper/white.jpg'
     } else {
         card1.classList.toggle('flip')
         card1.classList.remove('disable')

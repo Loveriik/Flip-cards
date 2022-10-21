@@ -55,6 +55,7 @@
     height:100%;
     object-fit: cover;
     border-radius: 10px;
+    transition-duration: 2s;
 }
 
 .card__front img {
@@ -77,11 +78,6 @@
 
 .refresh:hover {
     opacity:0.8;
-}
-
-.correct__answer {
-    background-color: white;
-    transition-duration: 1s;
 }
 .onload {
     width:100vw;
