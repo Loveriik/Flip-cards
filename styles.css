@@ -135,8 +135,7 @@
 
 @media screen and (max-width:412px) {
     .cards__container {
-        margin-top: 100px;
-        margin-inline: auto;
+        margin-top: 80px;
         width:100%;
         grid-template-columns: repeat(auto-fit, minmax(62.6px,1fr));
         grid-auto-rows:50px;
